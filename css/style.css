@@ -1,0 +1,27 @@
+body{
+    background-color: #b4b4b4;
+}
+
+.banner {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.banner p{
+    font-style: italic;
+}
+
+.banner a{
+    padding: 20px;
+    background-color: #ffbb00;
+    border-radius: 15px;
+    border: 1px solid #333;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+
+.banner-img img{
+    width: 320px;
+    height: 230px;
+}
