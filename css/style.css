@@ -9,33 +9,39 @@ body{
     display: flex;
 }
 
-.banner-img{
-    position: relative;
-    align-items: flex-start;
-}
-
-.banner-img img{
-    width: 100vw;
-    height: 50vh;
-}
-
-.banner {
-    flex-direction: column;
+.banner{
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    flex-direction: column;
+    position: relative;
+    background: url('../images/banner-borde-pizza.jpg') center left/cover no-repeat;
+    width: 100vw;
+    height: 80vh;
+    border-bottom: 1px solid #000;
+}
+
+.banner h1{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 50px;
 }
 
 .banner p{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
     font-style: italic;
 }
 
 .banner a{
     padding: 20px;
-    width: 100px;
+    width: 150px;
     background-color: #ffbb00;
     border-radius: 15px;
     border: 1px solid #333;
     text-decoration: none;
     font-weight: 500;
+    font-size: 25px;
     color: #000;
 }
