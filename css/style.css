@@ -1,6 +1,6 @@
 body{
     background-color: #b4b4b4;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif !important;
     height: 100%;
     margin: 0;
 }
@@ -13,10 +13,9 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* position: relative; */
     background: url('../images/banner-borde-pizza.jpg') center left/cover no-repeat;
     width: 100vw;
-    height: 80vh;
+    height: 60vh;
     border-bottom: 1px solid #000;
 }
 
@@ -25,23 +24,35 @@ body{
     border-radius: 10px;
     padding: 5px;
     font-size: 50px;
+    text-align: center;
 }
 
 .banner p{
     background-color: #fff;
     border-radius: 10px;
     padding: 5px;
+    margin-bottom: 60px;
+    text-align: center;
     font-style: italic;
+    font-size: 20px;
 }
 
-.banner a{
-    padding: 20px;
-    width: 150px;
-    background-color: #ffbb00;
-    border-radius: 15px;
-    border: 1px solid #333;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 25px;
-    color: #000;
+@media (max-width: 800px){
+    .banner h1{
+        font-size: 30px;
+    }
+
+    .banner p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 470px){
+    .banner h1{
+        font-size: 20px;
+    }
+
+    .banner p{
+        font-size: 10px;
+    }
 }
