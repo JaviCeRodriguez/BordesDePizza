@@ -160,7 +160,8 @@ body{
     }
 
     .pub-pizza{
-        justify-content: space-around;
+        justify-content: center;
+        align-content: space-around;
         width: 70%;
         height: 50vh;
     }
@@ -201,8 +202,9 @@ body{
     }
 
     .pub-pizza{
-        justify-content: space-around;
-        width: 60%;
+        justify-content: center;
+        align-content: space-around;
+        width: 80%;
         height: 40vh;
     }
     
