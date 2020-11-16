@@ -64,9 +64,11 @@ body{
 
 .pub-pizza{
     justify-content: space-around;
+    align-content: center;
     flex-wrap: wrap;
-    width: 80%;
-    height: 30vh;
+    width: 75vw;
+    max-width: 800px;
+    height: 230px;
     margin: 5vh;
     padding: 2vh;
     border: 1px solid #333;
