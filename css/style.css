@@ -113,12 +113,6 @@ body{
     justify-content: space-around;
 }
 
-.footer{
-    margin-top: 50px;
-    background-color: #fc9700;
-    height: 80px;
-}
-
 .contact{
     margin-top: 50px;
     justify-content: center;
@@ -142,6 +136,56 @@ body{
 
 .contact-map-sm{
     display: none;
+}
+
+.contact-details{
+    width: 30vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-details .formu h2{
+    text-align: center;
+}
+
+.contact-details .formu button{
+    width: 30vw;
+}
+
+.contact-details .social{
+    justify-content: center;
+}
+
+.contact-details .social img{
+    width: 50px;
+    margin: 10px;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #fc9700;
+    height: 80px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.footer .credits{
+    align-items: center;
+}
+
+.footer .credits small a{
+    color: #000;
+    font-weight: 700;
+}
+
+.footer .tecno{
+    align-items: center;
+}
+
+.footer .tecno img{
+    width: 30px;
+    margin: 3px;
 }
 
 @media (max-width: 800px){
@@ -169,6 +213,19 @@ body{
     .pub-pizza .pub-img img{
         width: 350px;
     }
+    
+    .contact-details{
+        width: 75vw;
+        margin-bottom: 30px;
+    }
+
+    .contact-details .formu button{
+        width: 75vw;
+    }
+
+    .contact-container{
+        flex-direction: column-reverse;
+    }
 
     .contact-map-main{
         display: none;
@@ -176,6 +233,7 @@ body{
     
     .contact-map-md{
         display: flex;
+        justify-content: center;
     }
     
     .contact-map-sm{
@@ -220,6 +278,15 @@ body{
         font-size: 20px;
     }
 
+    .contact-details{
+        width: 73vw;
+        margin-bottom: 30px;
+    }
+
+    .contact-details .formu button{
+        width: 73vw;
+    }
+
     .contact-map-main{
         display: none;
     }
@@ -230,5 +297,6 @@ body{
     
     .contact-map-sm{
         display: flex;
+        justify-content: center;
     }
 }
